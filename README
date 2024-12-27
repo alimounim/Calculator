@@ -1,0 +1,57 @@
+# Simple Calculator Program
+
+## Overview
+This is a simple command-line calculator program written in Python. It allows users to perform basic arithmetic operations, including addition, subtraction, multiplication, and division.
+
+## Features
+- Addition of two numbers
+- Subtraction of two numbers
+- Multiplication of two numbers
+- Division of two numbers
+- Continuous calculation until the user chooses to exit
+
+## Prerequisites
+- Python 3.x must be installed on your system.
+
+## How to Run
+1. Clone or download this repository.
+2. Open a terminal and navigate to the program's directory.
+3. Run the program using the following command:
+   ```bash
+   python calculator.py
+   ```
+
+## Instructions
+1. Choose an operation:
+   - Enter **A** for Addition
+   - Enter **S** for Subtraction
+   - Enter **M** for Multiplication
+   - Enter **D** for Division
+2. Enter two numbers when prompted.
+3. The result will be displayed.
+4. Choose whether to perform another calculation or exit the program.
+
+## Example Usage
+```
+Enter Choice (A,S,M,D): A
+Enter first number: 5
+Enter second number: 10
+Result: 5 + 10 = 15
+Want to do another calculation? (yes/no): no
+```
+
+## Known Issues
+- The program does not handle division by zero explicitly.
+- Minor typo in recognizing 'DIVITION' instead of 'DIVISION'.
+
+## Improvements
+- Add error handling for division by zero.
+- Fix minor typos in user prompts.
+
+
+## Author
+- **Ali Mounim Rajabi**
+
+## Contributions
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
